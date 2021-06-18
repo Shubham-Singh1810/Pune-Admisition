@@ -1,0 +1,179 @@
+@media only screen and (max-width:1100px){
+    html{
+        font-size: 45%;
+    }
+    html,body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width:700px){
+    nav{
+        padding: 1rem 2rem;
+        flex-direction: column;
+    }
+    .intro{
+        padding: 55rem 0 35rem 0;
+        
+    }
+    .contact-page{
+        padding: 25rem 10rem 5rem 10rem;
+
+    }
+    
+    .nav-right ul{
+        padding-top: 0;
+    }
+    .brandname{
+        padding-top: 3rem;
+    }
+    .nav-right ul li a{
+        padding: 0rem 1rem;
+        font-size: 3rem;
+    }
+    .container{
+        padding: 0rem 1rem;
+    }
+    .intro{
+        padding: 55rem 0 35rem 0;
+        
+    }
+    .intro h1{
+        font-size: 6rem;
+        font-weight: bolder;
+    }
+    .intro h2{
+        font-size: 2rem;
+    }
+    .course-box{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:550px){
+    .slider{
+        height: 100vh;
+    }
+    .intro{
+        padding: 55rem 0 35rem 0;
+        
+    }
+    .container h1{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .mit-section img{
+        height: 30rem;
+        padding-bottom: 3rem;
+    }
+    .patil-pune img{
+        height: 45rem;
+        padding-bottom: 3rem;
+    }
+    .singhad img{
+        height: 45rem;
+        padding-bottom: 3rem;
+    }
+    .vit-pune img{
+        height: 40rem;
+        padding-bottom: 3rem;
+    }
+    .pict img{
+        height: 35rem;
+        padding-bottom: 3rem;
+    }
+    .about-explain{
+        flex-direction: column-reverse;
+        padding: 2rem;
+    }
+    .about-content h1{
+        font-size: 5rem;
+    }
+    .course-box p{
+        text-align: center;
+    }
+    .container h1{
+        font-size: 5rem;
+        padding: 2rem 0;
+    }
+    .container p{
+        font-size: 2.5rem;
+        /* padding: 2rem 0; */
+    }
+    .res-h1{
+        display: none;
+    }
+    .res-h1-show{
+        display: block;
+        font-size: 3rem;
+        color: black;
+        border-bottom: 2px solid black;
+        padding: 1rem;
+        font-family: sans-serif;
+    }
+    .contact{
+        font-size: 3rem;
+        
+    }
+    .about-content p{
+        font-size: 3rem;
+        font-family: cursive;
+    }
+    .about-section1{
+       flex-direction: column-reverse;
+       padding-top:15rem ;
+    }
+    .admision{
+        flex-direction: column-reverse;
+        padding: 3rem 2rem;
+    }
+    .admision ul{
+        padding: 4rem 3rem;
+    }
+    .h2{
+        font-size: 4rem;
+        padding: 3rem 2rem;
+    }
+    .about-section2{
+        padding: 2rem 3rem;
+       
+    }
+    .about-section2 p{
+        font-size: 3rem;
+    }
+    .course-left{
+        padding: 5rem 3rem;
+        justify-content: space-between;
+        text-align: center;
+        font-family: serif;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .about-section3{
+        padding: 5rem 3rem;
+    }
+    .about-section3 p{
+        font-size: 3rem;
+    }
+    .about-section4{
+        padding: 5rem 3rem;
+        flex-direction: column;
+    }
+    .contact-page{
+        padding: 25rem 3rem 5rem 3rem;
+
+    }
+}
+@media only screen and (max-width:390px){
+    .nav-right ul li a{
+        padding: 0rem 1rem;
+        font-size: 2.5rem;
+    }
+    /* .intro{
+        padding: 35rem 0 22rem 0;
+        
+    } */
+    .admision ul li{
+        font-size: 3rem;
+        color: blue;
+    }
+}

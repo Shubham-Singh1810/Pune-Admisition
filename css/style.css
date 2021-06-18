@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: whitesmoke;
+}
+/* navigation start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 15rem;
+    background-color: white;
+    font-family: monospace;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.nav-left{
+    display: flex;
+}
+.brandname{
+    padding: 2rem 3rem;
+}
+.brandname h1{
+    font-size: 4rem;
+    
+}
+.nav-right ul{
+    display: flex;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+    
+}
+.nav-right ul li {
+    list-style: none;
+    padding: 1rem;
+}
+.nav-right ul li a{
+    text-decoration: none;
+    color: red;
+    text-shadow: 1px 1px 1px  black;
+    padding: 0 2rem;
+}
+.nav-right ul li a:hover{
+    color: white;
+    border: 1px solid black;
+    background:grey;
+    border-radius: 2rem;
+}
+.submenu{
+    display: none;
+    padding: 0;
+    background-color: white;
+    border-top: 2px solid black;
+}
+
+.nav-right ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    
+}
+.nav-right ul li:hover .submenu ul{
+    display: block;
+}
+/* navigation end */
+
+/* slider start */
+.slider{
+        
+        width: 100%;
+        height: 100vh;
+        background-image: url(../image/slider1.png);
+        animation: slider 12s infinite ease-in-out;
+        background-size: 100% 100%;
+    
+    }
+    @keyframes slider{
+    0%{background-image: url(../image/slider1.png);}
+    12%{background-image: url(../image/slider2.jpg);}
+    24%{background-image: url(../image/mit.png);}
+    36%{background-image: url(../image/singhad.png);}
+    48%{background-image: url(../image/vit.png);}
+    60%{background-image: url(../image/about.jpg);}
+    72%{background-image: url(../image/patil.jpg);}
+    84%{background-image: url(../image/pict.png);}
+    80%{background-image: url(../image/slider3.jpg);}
+    
+}
+   
+.intro{
+   text-align: center;
+   padding: 45vh ;
+   background-color: rgba(20, 10, 10, .4);
+   
+}     
+.intro h1{
+    font-size: 8rem;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    padding: 1rem;
+    font-family: monospace;
+}
+.intro h2{
+    font-size: 4rem;
+    padding: 1rem;
+    color: white;
+    font-family: monospace;
+    text-shadow: 2px 1px 2px solid;
+}
+.h1{
+    color: white;
+    text-shadow: 2px 1px 3px red;
+}
+/* slider end */
+
+/* container start */
+.container{
+    padding: 1rem 15rem;
+    text-align: center;
+}
+.container h1{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2rem;
+}
+.container p{
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: justify;
+    padding: 2rem;
+}
+.contact{
+    border: 1px solid black;
+    padding: .5rem 3rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    background: green;
+    
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.courses{
+    padding-top: 5rem;
+    font-family: fantasy;
+    
+}
+.courses img{
+    height: 20rem;
+    border: 1px solid black;
+}
+.heading{
+    color: purple;
+    font-size: 5rem;
+    text-shadow: 1px 2px 1px black;
+}
+.course-box{
+    display: flex;
+}
+.about-explain{
+    display: flex;
+    padding: 15rem ;
+    background-color: rgba(30, 200, 100, .1);
+    border-radius: 30rem 0rem 0rem 1rem;
+}
+.about-content h1{
+    font-size: 5rem;
+    text-shadow: 2px 1px 1px purple;
+}
+.about-content  p{
+    padding: 3rem;
+    font-size: 2rem;
+}
+.about-img{
+    height: 22rem;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+.res-h1-show{
+    display: none;
+}
+/* container end */
+
+/* footer start */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem ;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+/* footer end */
+.about-section1-img img{
+    height: 20rem;
+    /* padding: 10rem; */
+}
+.about-section1{
+    padding-top: 20rem;
+    display: flex;
+    text-align: justify;
+    border-radius: 0 0 20rem 0;
+}
+.admision ul li{
+    font-size: 2.5rem;
+    font-family: monospace;
+    color: blue;
+   
+    padding-top: 1rem;
+    
+}
+.admision{
+    display: flex;
+    justify-content: space-between;
+}
+.admision ul{
+    font-size: 3rem;
+}
+.h2{
+    color: black;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px red;
+    
+}
+.about-section2{
+    padding: 10rem 15rem 10rem 15rem;
+    margin: 5rem 0 0 0;
+    background-color: rgba(30, 200, 100, .1);
+    /* background-color: gray; */
+    border-radius: 20rem 0rem 0rem 0;
+    font-family: serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.about-section2 p{
+    font-family: monospace;
+    text-align: justify;
+    font-weight: bolder;
+}
+.about-section3{
+    padding: 10rem 15rem 10rem 15rem;
+    
+    background-color: rgba(30, 200, 100, .1);
+    
+    font-family: serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.about-section3 p{
+    font-family: monospace;
+    text-align: justify;
+    font-weight: bolder;
+    
+}
+.course-left{
+    padding: 10rem 15rem;
+    justify-content: space-between;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+.course-box-about{
+    justify-content: space-between;
+}
+.about-section4{
+    padding: 1rem 35rem 1rem 35rem;
+    margin: 1rem 0 0 0;
+    justify-content: space-between;
+    display: flex;
+    font-family: serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.about-box1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-info{
+    padding-left: 10rem;
+}
+.my-info ul li{
+    justify-content: space-between;
+    list-style: none;
+}
+.my-img img{
+    height: 20rem;
+    border-radius: 50% 50%;
+    border: 2px solid black;
+
+}
+.social-icon{
+    padding-top: 3rem;
+}
+.social-icon h1{
+    font-family: monospace;
+}
+.fa-facebook{
+    color:blue;
+    padding: .5rem;
+    font-size: 3rem;
+}
+.fa-instagram{
+    color: orangered;
+    padding: .5rem;
+    font-size: 3rem;
+}
+.fa-whatsapp{
+    color: green;
+    padding: .5rem;
+    font-size: 3rem;
+}
+.fa-linkedin{
+    color: blue;
+    padding: .5rem;
+    font-size: 3rem;
+}
+.contact-page{
+    padding-top: 15rem;
+}
+
+
+
+
