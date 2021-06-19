@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,9 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
+
 <body>
-        <!-- navigation start -->
+    <!-- navigation start -->
     <nav>
         <div class="nav-left">
             <div class="logo"><img src="image/logo.png" alt="loading logo"></div>
@@ -22,13 +24,13 @@
         <div class="nav-right">
             <ul>
                 <li><a href="about.html">About</a></li>
-                <li><span style="color: tomato; text-shadow: 1px 1px 1px black;">Colleges</span> 
+                <li><span style="color: tomato; text-shadow: 1px 1px 1px black;">Colleges</span>
                     <div class="submenu">
                         <ul>
-                            <li><a href="https://form.jotform.com/211681358043049">Engineering</a></li>
-                            <li><a href="https://form.jotform.com/211681358043049">Medical</a></li>
-                            <li><a href="https://form.jotform.com/211681358043049">Management</a></li>
-                            <li><a href="https://form.jotform.com/211681358043049">Law</a></li>
+                            <li><a href="https://form.jotform.com/211695094132050">Engineering</a></li>
+                            <li><a href="https://form.jotform.com/211695094132050">Medical</a></li>
+                            <li><a href="https://form.jotform.com/211695094132050">Management</a></li>
+                            <li><a href="https://form.jotform.com/211695094132050">Law</a></li>
                         </ul>
                     </div>
                 </li>
@@ -37,32 +39,66 @@
         </div>
     </nav>
     <!-- navigation end -->
-        <div class="about-section4 contact-page">
-            <!-- <h1>About ME</h1> -->
-           <div class="my-img">
-               <img src="image/my-pic.jfif" alt="">
-           </div>
-           <div class="social-icon">
-               <h1>ER BIJENDRA KUMAR</h1>
-               <h2>Call Now - 9060040043</h2>
-               <div class="socialicon">
-                <a href="https://www.facebook.com/profile.php?id=100016748835401" target="_blank"><i
-                        class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/shubhamsingh6569/?hl=en" target="_blank"><i
-                        class="fab fa-instagram"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=7762042085/" target="_blank"><i
-                        class="fab fa-whatsapp"></i></a>
+    <div class="about-section4 contact-page">
+        <!-- <h1>About ME</h1> -->
+        <div class="my-img">
+            <img src="image/my-pic.jfif" alt="">
+        </div>
+        <div class="social-icon">
+            <h1>ER BIJENDRA KUMAR</h1>
+            <h2 style="color: blue;">Gmail: <span style="color:tomato;">Puneadmission03@gmail.com</span></h2>
+            <div class="socialicon">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 <a href="" class="fab fa-linkedin"></a>
             </div>
-            <hr><hr>
-           </div>
+            <hr>
+            <hr>
         </div>
-    <script type="text/javascript" src="https://form.jotform.com/jsform/211681358043049"></script>
+    </div>
+    <script type="text/javascript" src="https://form.jotform.com/jsform/211695094132050"></script>
     <footer>
-        
         Copyright © 2021 Pune Admission
-        
         Powered by Pune Admission
     </footer>
+    <!-- whatapp embeded code -->
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?10666';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+            "enabled": true,
+            "chatButtonSetting": {
+                "backgroundColor": "#4dc247",
+                "ctaText": "",
+                "borderRadius": "25",
+                "marginLeft": "0",
+                "marginBottom": "50",
+                "marginRight": "50",
+                "position": "right"
+            },
+            "brandSetting": {
+                "brandName": "WATI",
+                "brandSubTitle": "Typically replies within a day",
+                "brandImg": "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+                "welcomeText": "Hi there!\nHow can I help you?",
+                "messageText": "",
+                "backgroundColor": "#0a5f54",
+                "ctaText": "Start Chat",
+                "borderRadius": "25",
+                "autoShow": false,
+                "phoneNumber": "919156232303"
+            }
+        };
+        s.onload = function () {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
 </body>
+
 </html>
